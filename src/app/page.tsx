@@ -1,5 +1,6 @@
 import Accordion from "@/components/accordion";
 import RandomColor from "@/components/random-color";
+import StarRating from "@/components/star-rating";
 
 export default function Home() {
   return (
@@ -8,7 +9,10 @@ export default function Home() {
       {/* <Accordion /> */}
 
       {/* Random Color component */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      {/* Star rating components */}
+      <StarRating noOfStars={6} />
     </div>
   );
 }
